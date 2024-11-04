@@ -1,0 +1,47 @@
+/* Importação da fonte do site */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Teko:wght@300..700&display=swap');
+
+/* Normalização da página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Teko", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+/* Tela de carregamento do jogo */
+canvas{
+    width:400px; 
+    height:600px;
+    background-color: #222;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+/* Painel de controle */
+.controles{
+    display: flex;
+    gap: 10px;
+
+    & button{
+        width: 100px;
+        height: 50px;
+        font-size: 30px;
+        border-radius: 4px;
+    }
+}
+.placar {
+    font-size: 18px;
+}

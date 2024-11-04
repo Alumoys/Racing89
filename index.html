@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Rancig89</title>
+</head>
+<body>
+    <h1>Racing 89</h1>
+    <!-- placar de pontuação -->
+    <div class="placar">
+        Pontuação: <span id="pontuacao">0</span>
+    </div>
+    <!-- onde o jogo vai carregar -->
+    <canvas id="jogo" width="400" height="600"></canvas>
+    <audio src="./assets/aud/CorridaMusica.mp3" id="audcorrida"></audio>
+
+    <!-- botões de controle -->
+    <div class="controles">
+        <button onclick="iniciarJogo()">Iniciar</button>
+        <button onclick="reiniciarJogo()">Reiniciar</button>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html> 
