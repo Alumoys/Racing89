@@ -41,7 +41,7 @@ function iniciarJogo() {
     dificuldade = 1;
     obstaculos = [];
     PluginArray.
-    musicaUm.play();
+
 
     // Atualizar a pontuação na interface
     document.getElementById("pontuacao").textContent = pontuacao;
